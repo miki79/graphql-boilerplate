@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack --config webpack.config.js",
-    "start": "webpack --config webpack.prod.config.js",
+    "build:prod": "webpack --config webpack.prod.config.js",
+    "start": "webpack --config webpack.prod.config.js && node dist/server.js",
     "test": "jest",
     "lint": "eslint src"
   },
