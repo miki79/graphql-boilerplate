@@ -6,9 +6,9 @@
   "author": "Michele Giardi",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack --config webpack.config.js",
-    "build:prod": "webpack --config webpack.prod.config.js",
-    "start": "webpack --config webpack.prod.config.js && node dist/server.js",
+    "dev": "rm -rf ./dist && webpack --config webpack.config.js",
+    "build:prod": "rm -rf ./dist && webpack --config webpack.prod.config.js",
+    "start": "rm -rf ./dist && webpack --config webpack.prod.config.js && node dist/server.js",
     "test": "jest",
     "lint": "eslint src"
   },
