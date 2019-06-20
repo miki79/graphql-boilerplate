@@ -34,7 +34,7 @@
     "jest": "^24.8.0",
     "start-server-webpack-plugin": "^2.2.0",
     "webpack": "^3.8.1",
-    "webpack-node-externals": "^1.6.0"
+    "webpack-node-externals": "^1.7.2"
   },
   "repository": {
     "type": "git",
