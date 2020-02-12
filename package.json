@@ -33,7 +33,7 @@
     "eslint-plugin-jest": "^23.7.0",
     "jest": "^25.1.0",
     "start-server-webpack-plugin": "^2.2.5",
-    "webpack": "^4.41.5",
+    "webpack": "^4.41.6",
     "webpack-node-externals": "^1.7.2"
   },
   "repository": {
